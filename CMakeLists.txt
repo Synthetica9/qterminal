@@ -24,7 +24,7 @@ elseif(UNIX)
     find_package(Qt5X11Extras REQUIRED)
     find_package(Qt5DBus)
 endif()
-find_package(QTermWidget5 ${QTERMWIDGET_MINIMUM_VERSION} REQUIRED)
+find_package(QTermWidget ${QTERMWIDGET_MINIMUM_VERSION} REQUIRED)
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
 include(LXQtPreventInSourceBuilds)
